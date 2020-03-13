@@ -1,0 +1,23 @@
+{
+    "name": "Demo Plugin",
+    "identifier": "io.iina.demo",
+    "version": "0.1.0",
+    "ghVersion": 2,
+    "ghRepo": "lhc70000/plugin-test",
+    "description": "Demo",
+    "author": {
+        "name": "Collider LI",
+        "email": "lhc@iina.io",
+        "url": "https://iina.io"
+    },
+    "helpPage": "https://iina.io",
+    "entry": "main.js",
+    "permissions": ["show-osd", "network-request", "menu-items", "video-overlay", "call-process", "file-system"],
+    "allowedDomains": ["iina.io", "*.iina.io"],
+    "preferencesPage": "pref.html",
+    "preferenceDefaults": {
+        "keyNum": 10,
+        "keyString": "hello",
+        "keyBool": true
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "plugin-demo",
+  "version": "1.0.0",
+  "description": "Demo plugin for IINA",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "iina-plugin-definition": "^0.0.4"
+  }
+}
